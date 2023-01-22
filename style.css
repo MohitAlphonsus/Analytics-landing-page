@@ -1,0 +1,38 @@
+:root {
+	--color-primary: #172755;
+	--color-secondary: #ef2a82;
+
+	--color-light-blue-gray: #8794ba;
+	--color-light-red-white: #e5e5e5;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	height: 100vh;
+}
+
+/** UTILITY CLASSES  */
+
+/** GENERAL STYLINGS */
+.section-hero {
+	height: 100%;
+	background-color: var(--color-primary);
+}
+
+.header {
+}
+
+.logo {
+	height: 4rem;
+}
