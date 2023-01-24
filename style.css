@@ -203,3 +203,24 @@ nav ul li a:visited {
 	color: var(--color-primary);
 	margin-bottom: 1rem;
 }
+
+.about-box {
+	display: flex;
+	align-items: center;
+}
+
+.about-box__content {
+	flex-basis: 50%;
+}
+
+.about-box .switch-content-order {
+	order: 2;
+}
+
+.about-box__img {
+	flex-basis: 60%;
+}
+
+.about-box__img img {
+	width: 100%;
+}
